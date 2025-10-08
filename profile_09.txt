@@ -1,0 +1,57 @@
+David Kim
+Contact: david.kim@softwaredev.com
+Phone: (555) 567-8901
+Location: Detroit, MI
+
+Professional Experience:
+- Senior Software Engineer at Automotive Tech Company (2020-Present)
+  * Develop embedded software for automotive systems
+  * Lead cross-functional teams for software product development
+  * Conduct code reviews and debugging of complex systems
+  * Manage integration with hardware components and APIs
+
+- Software Engineer at Aerospace Software Solutions (2018-2020)
+  * Developed flight control software using C++ and Python
+  * Performed software testing and validation procedures
+  * Collaborated with engineering teams on system architecture
+  * Supported software certification and compliance processes
+
+- Software Developer at Manufacturing Solutions (2016-2018)
+  * Created industrial automation software and interfaces
+  * Developed and tested new software features
+  * Optimized algorithms for manufacturing efficiency
+  * Provided technical support to production teams
+
+Education:
+Master of Science in Computer Science
+University of Michigan (2014-2016)
+Focus: Software Engineering and Systems
+
+Bachelor of Science in Computer Engineering
+Purdue University (2010-2014)
+Summa Cum Laude, IEEE Honor Society
+
+Technical Specializations:
+Programming: C++, Python, Java, JavaScript, C
+Frameworks: React, Node.js, Django, Spring Boot
+Tools: Git, Docker, Jenkins, JIRA, Linux
+Project Management: Agile/Scrum, DevOps, CI/CD
+
+Projects & Publications:
+- Led development of vehicle diagnostic software (improved efficiency by 15%)
+- Built real-time monitoring system for electric vehicle fleet
+- Optimized data processing pipeline reducing latency by 20%
+- Patent holder for innovative software algorithm design
+
+Professional Certifications:
+- AWS Certified Solutions Architect Associate
+- Certified ScrumMaster (CSM)
+- Oracle Certified Professional Java SE
+- OSHA 30-Hour Safety Training
+
+Professional Memberships:
+- American Society of Mechanical Engineers (ASME)
+- Society of Automotive Engineers (SAE)
+- Institute of Industrial and Systems Engineers (IISE)
+
+Languages: English (Native), Korean (Fluent), Japanese (Conversational)

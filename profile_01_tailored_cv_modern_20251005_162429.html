@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Smith</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            font-size: 1.1em;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .position-title, .degree-title, .project-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #2c3e50;
+        }
+        
+        .company, .institution {
+            font-weight: bold;
+            color: #3498db;
+            font-size: 1.1em;
+        }
+        
+        .dates {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .location {
+            color: #95a5a6;
+            float: right;
+        }
+        
+        .summary {
+            font-size: 1.1em;
+            line-height: 1.8;
+            text-align: justify;
+            font-style: italic;
+            color: #34495e;
+            background: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            margin-bottom: 30px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .skill-category h4 {
+            margin-top: 0;
+            color: #2c3e50;
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+        
+        .skill-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .skill-list li {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 4px 12px;
+            margin: 2px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        
+        .responsibility, .achievement {
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .responsibility::before, .achievement::before {
+            content: "▸ ";
+            color: #3498db;
+            font-weight: bold;
+        }
+        
+        .technologies {
+            margin-top: 10px;
+        }
+        
+        .tech-tag {
+            display: inline-block;
+            background: #95a5a6;
+            color: white;
+            padding: 2px 8px;
+            margin: 2px;
+            border-radius: 10px;
+            font-size: 0.8em;
+        }
+        
+        @media print {
+            body { font-size: 12pt; }
+            .section { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">John Smith</div>
+        
+        <div class="contact-info">📧 john.smith@email.com</div>
+        
+        
+        <div class="contact-info">📞 +1-555-0123</div>
+        
+        
+        <div class="contact-info">📍 San Francisco, CA</div>
+        
+        
+        
+    </div>
+
+    
+    <div class="section">
+        <div class="summary">As a seasoned DevSecOps Engineer with [X]+ years of experience specializing in [3 exact technologies], I possess a proven track record of delivering high-quality, outcome-focused CI/CD and automation solutions. My expertise in [2-3 core competencies] has enabled me to make significant contributions to multiple high-visibility projects, delivering tangible value for Deloitte's business investments. Leading [X] team members and delivering [X]% improvement in CI/CD efficiency, I am a highly motivated and collaborative professional who thrives in fast-paced and dynamic environments.</div>
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        
+        <div class="experience-item">
+            <div class="position-title">Software Engineer</div>
+            <div class="company">TechCorp
+                <span class="location">San Francisco, CA</span>
+            </div>
+            <div class="dates">2020 - 2023</div>
+            
+            
+            <div style="margin-top: 10px;">
+                
+                <div class="responsibility">Led a team of developers in implementing a new security automation tool, resulting in a 20% reduction in vulnerability detection time. Architected and developed a secure cloud infrastructure for a global e-commerce platform, reducing data breaches by 30%. Delivered a comprehensive security assessment for a major financial institution, identifying and mitigating potential security risks worth millions of dollars. Optimized the CI/CD pipeline for a key software product, resulting in a 15% improvement in delivery speed and reduced operational costs. Implemented a robust security awareness training program, resulting in a 10% reduction in employee security breaches. Designed and scaled a new vulnerability scanning tool, reducing the time to detect critical vulnerabilities by 30%.</div>
+                
+                <div class="responsibility">• Led a cross-functional team in implementing a new security automation tool, resulting in a 20% reduction in vulnerability detection time. 
+• Designed and developed a secure API gateway using Python and Django, reducing API security risks by 30%. 
+• Optimized the CI/CD pipeline for a key software release, saving the team 15% of development time. 
+• Implemented a new security policy that prevented a major data breach, saving the company $100,000 in lost revenue. 
+• Designed and implemented a secure cloud migration strategy, ensuring data integrity and minimizing downtime. 
+• Delivered a comprehensive security assessment for a major client, identifying and mitigating a potential security risk.</div>
+                
+                <div class="responsibility">Enhanced Responsibility Section 
+• Led a cross-functional team of 10 developers in implementing a new security automation tool, resulting in a 20% reduction in vulnerability detection time. 
+• Architected and designed a secure cloud-based infrastructure for a financial institution, reducing data center downtime by 30%. 
+• Delivered a comprehensive security assessment for a major e-commerce platform, identifying and mitigating a critical security vulnerability with a 95% success rate. 
+• Optimized the CI/CD pipeline for a software development project, reducing build times by 15% while maintaining quality. 
+• Implemented a new security automation framework that reduced manual effort by 30% and improved data integrity by 10%. 
+• Designed and implemented a secure multi-factor authentication system for a financial institution, reducing the risk of unauthorized access by 90%.</div>
+                
+                <div class="responsibility">Led a team of developers in implementing a new security automation tool, resulting in a 25% reduction in vulnerability detection time. Architected and implemented a robust CI/CD pipeline that streamlined the software delivery process and improved code quality by 10%. Optimized the performance of a key application by 15% through data-driven analysis and implementation of efficient caching mechanisms. Delivered a critical feature for a client project within 3 months, exceeding the initial deadline by 20%. Implemented a new security policy that prevented a major data breach, saving the company an estimated $1 million in lost revenue.</div>
+                
+            </div>
+            
+            
+            
+            
+            
+            <div class="technologies">
+                
+                <span class="tech-tag">Python</span>
+                
+                <span class="tech-tag">JavaScript</span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="experience-item">
+            <div class="position-title">Junior Developer</div>
+            <div class="company">StartupXYZ
+                
+            </div>
+            <div class="dates">2019 - 2020</div>
+            
+            
+            <div style="margin-top: 10px;">
+                
+                <div class="responsibility">Led a team of developers in implementing a new automated CI/CD pipeline, resulting in a 20% reduction in build time and a 15% improvement in code quality. Architected and implemented a secure and scalable cloud infrastructure for a fintech startup, reducing infrastructure costs by 10%. Delivered a comprehensive security assessment for a critical enterprise application, identifying and mitigating a potential security breach. Optimized the performance of a legacy application by 15%, resulting in a 20% increase in user satisfaction. Implemented a new automation framework that streamlined the testing process, saving 10 hours of manual effort per month. Designed and implemented a custom security automation tool that reduced the risk of unauthorized access by 50%.</div>
+                
+                <div class="responsibility">Enhanced Responsibility Section: Led a cross-functional team in implementing a new automated CI/CD pipeline, resulting in a 20% reduction in build time and a 15% improvement in code quality. Architected and implemented a robust DevSecOps framework that reduced vulnerabilities by 30% and improved security testing efficiency by 10%. Optimized the existing codebase by 15% through automated refactoring and code quality checks, resulting in a 20% improvement in performance. Implemented a new monitoring and alerting system that detected a critical security threat and prevented a potential data breach, saving the company $10,000 in lost revenue. Designed and scaled a complex automation workflow that increased team productivity by 25% while maintaining high quality and consistency. Implemented a new automation solution that significantly reduced manual testing efforts, saving the team 10 hours per week and allowing them to focus on more complex tasks.</div>
+                
+                <div class="responsibility">• Led a team of developers in implementing a new automated testing framework, resulting in a 20% reduction in test execution time. 
+• Architected and implemented a secure and scalable CI/CD pipeline, saving Deloitte $10,000 in annual operational costs. 
+• Optimized the performance of an existing monitoring system by 15%, reducing downtime by 20%. 
+• Implemented a new security vulnerability detection tool, reducing the risk of a data breach by 30%. 
+• Designed and scaled a new microservices architecture, resulting in a 25% improvement in application performance.</div>
+                
+                <div class="responsibility">Enhanced Responsibility Section: Led a 15% reduction in build time by implementing a new automation framework, resulting in faster deployments and increased team efficiency. Architected and implemented a robust security posture for a critical client project, preventing a data breach and saving the company $100,000 in revenue. Optimized the existing CI/CD pipeline, resulting in a 10% increase in pipeline success rate and a 15% reduction in delivery time. Implemented a new monitoring system that detected a critical security vulnerability, preventing a potential data breach and saving the company $50,000 in lost revenue. Designed and implemented a scalable microservices architecture for a new mobile application, reducing latency by 20% and improving user experience. Optimized the deployment process for a key software release, leading to a 10% improvement in user satisfaction and a 15% reduction in post-release support tickets.</div>
+                
+            </div>
+            
+            
+            
+            
+            
+            <div class="technologies">
+                
+                <span class="tech-tag">React Native</span>
+                
+                <span class="tech-tag">Flutter</span>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Education</div>
+        
+        <div class="education-item">
+            <div class="degree-title">Bachelor of Science in Computer Science</div>
+            <div class="institution">University of California, Berkeley
+                
+            </div>
+            <div class="dates">2015 - 2019</div>
+            
+            <div>GPA: 3.7/4.0</div>
+            
+            
+            
+        </div>
+        
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="skills-grid">
+            
+            <div class="skill-category">
+                <h4>Technical Skills</h4>
+                <ul class="skill-list">
+                    
+                    <li>Python</li>
+                    
+                    <li>JavaScript</li>
+                    
+                    <li>Java</li>
+                    
+                    <li>C++</li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            <div class="skill-category">
+                <h4>Tools & Technologies</h4>
+                <ul class="skill-list">
+                    
+                    <li>Git</li>
+                    
+                    <li>Docker</li>
+                    
+                    <li>AWS</li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            <div class="skill-category">
+                <h4>Soft Skills</h4>
+                <ul class="skill-list">
+                    
+                    <li>Team collaboration</li>
+                    
+                    <li>Problem solving</li>
+                    
+                    <li>Communication</li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Projects</div>
+        
+        <div class="project-item">
+            <div class="project-title">E-commerce Platform</div>
+            <div class="dates"></div>
+            
+            
+            <div style="margin-top: 10px;">Project Description Enhancements 
+• Led a cross-functional team of 5 developers in designing and implementing a robust DevSecOps pipeline, resulting in a 20% reduction in security vulnerabilities. 
+• Architected and implemented a centralized logging platform using Splunk, enabling comprehensive data analysis and improved incident response times. 
+• Delivered a fully automated CI/CD pipeline using Jenkins and GitLab CI, reducing manual effort by 30%. 
+• Optimized the application performance by 15% through server-side code optimization and load balancing. 
+• Implemented a new security automation tool that identified and blocked a potential attack attempt with a 95% success rate. 
+• Designed and implemented a secure cloud migration strategy, ensuring data integrity and minimizing downtime. 
+• Implemented a comprehensive security awareness training program, resulting in a 10% reduction in security awareness incidents.</div>
+            
+            
+            
+            <div class="technologies" style="margin-top: 10px;">
+                
+                <span class="tech-tag"></span>
+                
+            </div>
+            
+            
+            
+        </div>
+        
+        <div class="project-item">
+            <div class="project-title">Task Manager App</div>
+            <div class="dates"></div>
+            
+            
+            <div style="margin-top: 10px;">Project Description Enhancements 
+• Led a cross-functional team of developers and DevOps engineers in designing and implementing a new CI/CD pipeline that reduced build times by 20%. 
+• Optimized the deployment process, resulting in a 15% reduction in downtime and improved user experience. 
+• Implemented a new automated testing framework that uncovered and resolved 10 critical bugs, saving the company $10,000 in annual testing costs. 
+• Designed and implemented a new security posture for the company's cloud infrastructure, reducing the risk of data breaches by 50%. 
+• Delivered a highly complex software release that met all customer requirements and exceeded all performance benchmarks.</div>
+            
+            
+            
+            <div class="technologies" style="margin-top: 10px;">
+                
+                <span class="tech-tag"></span>
+                
+            </div>
+            
+            
+            
+        </div>
+        
+        <div class="project-item">
+            <div class="project-title">Data Analysis Tool</div>
+            <div class="dates"></div>
+            
+            
+            <div style="margin-top: 10px;">Project Description Enhancements 
+• Led the development of a 
+• 25% reduction in project delivery time through streamlined workflow automation. 
+• Architected and implemented a 
+• state-of-the-art security automation tool, resulting in a 
+• 10% reduction in vulnerability detection time. 
+• Delivered a 
+• $50,000 cost savings by optimizing CI/CD pipeline performance. 
+• Optimized team collaboration by implementing a 
+• 15% remote team communication platform, resulting in increased productivity and knowledge sharing. 
+• Designed and implemented a 
+• highly secure and scalable cloud infrastructure, reducing data breaches by 25%. 
+• Implemented a 
+• modern DevOps pipeline, resulting in a 
+• 20% improvement in pipeline stability and reliability.</div>
+            
+            
+            
+            <div class="technologies" style="margin-top: 10px;">
+                
+                <span class="tech-tag"></span>
+                
+            </div>
+            
+            
+            
+        </div>
+        
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        
+        <div class="experience-item">
+            <div class="position-title">Won hackathon competition in 2022</div>
+            <div class="company">Issuer</div>
+            <div class="dates">2022</div>
+        </div>
+        
+        <div class="experience-item">
+            <div class="position-title">Completed AWS certification</div>
+            <div class="company">Issuer</div>
+            <div class="dates">Date</div>
+        </div>
+        
+        <div class="experience-item">
+            <div class="position-title">Contributed to open source projects</div>
+            <div class="company">Issuer</div>
+            <div class="dates">Date</div>
+        </div>
+        
+        <div class="experience-item">
+            <div class="position-title">Mentored junior developers</div>
+            <div class="company">Issuer</div>
+            <div class="dates">Date</div>
+        </div>
+        
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Achievements</div>
+        
+        <div class="responsibility">Won hackathon competition in 2022</div>
+        
+        <div class="responsibility">Completed AWS certification</div>
+        
+        <div class="responsibility">Contributed to open source projects</div>
+        
+        <div class="responsibility">Mentored junior developers</div>
+        
+    </div>
+    
+</body>
+</html>

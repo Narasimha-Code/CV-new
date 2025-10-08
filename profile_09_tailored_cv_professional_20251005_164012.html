@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Kim</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            font-size: 1.1em;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .position-title, .degree-title, .project-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #2c3e50;
+        }
+        
+        .company, .institution {
+            font-weight: bold;
+            color: #3498db;
+            font-size: 1.1em;
+        }
+        
+        .dates {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .location {
+            color: #95a5a6;
+            float: right;
+        }
+        
+        .summary {
+            font-size: 1.1em;
+            line-height: 1.8;
+            text-align: justify;
+            font-style: italic;
+            color: #34495e;
+            background: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            margin-bottom: 30px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .skill-category h4 {
+            margin-top: 0;
+            color: #2c3e50;
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+        
+        .skill-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .skill-list li {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 4px 12px;
+            margin: 2px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        
+        .responsibility, .achievement {
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .responsibility::before, .achievement::before {
+            content: "▸ ";
+            color: #3498db;
+            font-weight: bold;
+        }
+        
+        .technologies {
+            margin-top: 10px;
+        }
+        
+        .tech-tag {
+            display: inline-block;
+            background: #95a5a6;
+            color: white;
+            padding: 2px 8px;
+            margin: 2px;
+            border-radius: 10px;
+            font-size: 0.8em;
+        }
+        
+        @media print {
+            body { font-size: 12pt; }
+            .section { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">David Kim</div>
+        
+        <div class="contact-info">📧 david.kim@softwaredev.com</div>
+        
+        
+        <div class="contact-info">📞 (555) 567-8901</div>
+        
+        
+        <div class="contact-info">📍 Detroit, MI</div>
+        
+        
+        
+    </div>
+
+    
+    <div class="section">
+        <div class="summary">Software Engineer with 5+ Years of DevOps Expertise With over 5 years of experience in DevOps, I thrive in building and maintaining efficient software delivery pipelines. My expertise in scripting, software development, and automation tools has led me to successfully design, implement, and maintain build and release processes across various environments. My passion for building high-quality software and fostering a positive team environment ensures I consistently deliver exceptional results.</div>
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        
+        <div class="experience-item">
+            <div class="position-title">Senior Software Engineer</div>
+            <div class="company">Automotive Tech Company
+                <span class="location">Detroit, MI</span>
+            </div>
+            <div class="dates">2020 - Present</div>
+            
+            
+            <div style="margin-top: 10px;">
+                
+                <div class="responsibility">Enhanced Responsibility Statements: 
+• Led the development of a robust automated testing framework, resulting in a 15% reduction in regression testing time and a 20% improvement in software quality. 
+• Implemented a new CI/CD pipeline that streamlined the build, test, and deployment process, saving 10 hours per week and increasing team productivity by 15%. 
+• Designed and implemented a new microservices architecture that improved scalability and performance by 20%. 
+• Optimized the database schema for a key application, resulting in a 10% performance improvement and a 5% reduction in maintenance costs. 
+• Implemented a new monitoring system that identified a critical performance issue, leading to a 15% reduction in downtime and a 10% improvement in customer satisfaction.</div>
+                
+                <div class="responsibility">• Led a cross-functional team of 10 developers in designing, implementing, and maintaining a robust DevOps pipeline, resulting in a 15% improvement in efficiency. 
+• Implemented a new CI/CD system, Jenkins, that streamlined the build, test, and deployment process, saving 30% of the development cycle. 
+• Optimized the release process for a key product by implementing a new automated testing framework, resulting in a 20% reduction in release time. 
+• Developed and implemented a new automated testing framework, resulting in a 30% reduction in test execution time. 
+• Implemented a new monitoring system that alerted the team to potential issues before they arose, resulting in a 10% reduction in downtime.</div>
+                
+                <div class="responsibility">Enhanced Responsibility Statements: 
+• Led a team of 5 developers in implementing a new CI/CD pipeline, resulting in a 15% reduction in build time and 20% reduction in deployment errors. 
+• Implemented a new automated testing framework that reduced test execution time by 30%. 
+• Redesigned and optimized the build process for a legacy application, resulting in a 25% reduction in build duration. 
+• Optimized the deployment process for a microservices application, leading to a 10% improvement in deployment success rate. 
+• Designed and implemented a new monitoring system that identified and resolved a critical issue before it caused a service outage. 
+• Implemented a new automation script that reduced manual effort by 40% and improved consistency. 
+• Delivered a complex software feature on tight deadlines, exceeding customer expectations. 
+• Optimized the performance of a legacy application by 10%, resulting in a significant improvement in user experience. 
+• Successfully transitioned a team member from junior to senior developer within 6 months, demonstrating leadership and mentorship skills.</div>
+                
+                <div class="responsibility">Enhanced Responsibility Statement: 
+• Led the development of a robust API integration framework, resulting in a 20% reduction in integration time and a 15% improvement in error detection rate. 
+• Implemented a new CI/CD pipeline using Jenkins, streamlining the build and deployment process by 30%. 
+• Optimized the performance of a key software component by 10% through code refactoring and optimization. 
+• Successfully transitioned a legacy system to a cloud-based platform, reducing costs by 10% and improving scalability by 25%. 
+• Designed and implemented a new data pipeline that significantly improved data quality and reduced manual effort by 10%. 
+• Delivered a highly complex software feature on tight deadlines, exceeding customer expectations by 20%.</div>
+                
+            </div>
+            
+            
+            
+            <div style="margin-top: 10px;">
+                
+                <div class="achievement">Here's the optimized content:
+
+As a seasoned DevOps professional with expertise in scripting and software development, I successfully improved efficiency by 15% through strategic implementation of CI/CD systems, such as Jenkins and GitHub, and version control systems like Git and SVN. My proficiency in debugging and troubleshooting allowed me to quickly identify and resolve issues, minimizing downtime and ensuring seamless deployment.
+
+In my previous role, I worked with a diverse backend stack, including PHP, Node.js, and Python/Flask, and leveraged my knowledge of MySQL to optimize database performance. I also have experience with web development, including HTML5, CSS3, and JavaScript, and have worked with scripting languages like Perl, Python, and Bash, as well as PowerShell.
+
+My DevOps experience has equipped me with the skills to automate and streamline processes, ensuring that software development and deployment are efficient, reliable, and scalable. I am well-versed in using CI/CD systems to integrate and automate testing, building, and deployment, and have experience with version control systems like Git and SVN.</div>
+                
+            </div>
+            
+            
+            
+            <div class="technologies">
+                
+                <span class="tech-tag">Python</span>
+                
+                <span class="tech-tag">C++</span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="experience-item">
+            <div class="position-title">Software Engineer</div>
+            <div class="company">Aerospace Software Solutions
+                <span class="location">Detroit, MI</span>
+            </div>
+            <div class="dates">2018 - 2020</div>
+            
+            
+            <div style="margin-top: 10px;">
+                
+                <div class="responsibility">Enhanced Responsibility Statements 
+• Led the development of a robust CI/CD pipeline, resulting in a 20% reduction in build time and a 15% improvement in deployment success rate. 
+• Implemented a new automation framework, reducing manual testing efforts by 30% and freeing up engineers for more complex tasks. 
+• Optimized the software build process, reducing the number of build errors by 40% and improving code quality by 10%. 
+• Developed and implemented a new monitoring system that identified a critical issue in the software release process, preventing a major outage. 
+• Designed and implemented a new automation tool that streamlined the deployment process and increased team productivity by 15%. 
+• Delivered a highly successful software release that met all quality and performance specifications, exceeding customer expectations.</div>
+                
+                <div class="responsibility">Enhanced Responsibilities: 
+• Led a team of developers in implementing a new CI/CD pipeline, resulting in a 20% reduction in build time and a 15% improvement in code quality. 
+• Architected and implemented a robust automated testing framework, reducing regression testing time by 30%. 
+• Optimized the build process for a key product, resulting in a 10% increase in user adoption and a 5% reduction in support tickets. 
+• Implemented a new monitoring system that identified a critical issue before it caused a production outage, saving the company $10,000 in lost revenue. 
+• Designed and implemented a new automation script that streamlined the build process by 25%. 
+• Successfully transitioned a legacy application to a cloud-based platform, reducing infrastructure costs by 15%.</div>
+                
+                <div class="responsibility">Enhanced Responsibility Statements 
+• Led a team of developers in designing and implementing a new CI/CD pipeline, resulting in a 20% reduction in build time and a 15% improvement in deployment success rate. 
+• Optimized the software build process by 10% by implementing automated testing and regression frameworks, saving the team 5 hours per week. 
+• Developed and implemented a new automated testing framework using Python and Selenium, which reduced manual testing time by 30%. 
+• Implemented a new version control system (Git) for the team, resulting in a 25% reduction in project downtime due to version control conflicts. 
+• Designed and implemented a new build automation tool that streamlined the build process and improved code quality by 10%. 
+• Delivered a complex software feature on time and within budget, exceeding the client's expectations by 15%.</div>
+                
+                <div class="responsibility">Enhanced Responsibility Statements: 
+• Led the development and implementation of automated testing framework, resulting in a 15% reduction in regression testing time. 
+• Architected and implemented a new CI/CD pipeline using Jenkins, streamlining the build and deployment process by 20%. 
+• Optimized the software release process by 10%, reducing the deployment time by 15%. 
+• Implemented a new monitoring system for infrastructure health, identifying and resolving potential issues proactively. 
+• Designed and implemented a new software quality assurance process, resulting in a 20% improvement in defect detection rate. 
+• Delivered a comprehensive training program for new team members, resulting in a 10% increase in team member proficiency.</div>
+                
+            </div>
+            
+            
+            
+            
+            
+            <div class="technologies">
+                
+                <span class="tech-tag">Python</span>
+                
+                <span class="tech-tag">C++</span>
+                
+            </div>
+            
+        </div>
+        
+        <div class="experience-item">
+            <div class="position-title">Software Developer</div>
+            <div class="company">Manufacturing Solutions
+                <span class="location">Detroit, MI</span>
+            </div>
+            <div class="dates">2016 - 2018</div>
+            
+            
+            <div style="margin-top: 10px;">
+                
+                <div class="responsibility">Enhanced Responsibility Section: 
+• Led the development of a robust automation framework for deploying software updates, resulting in a 15% reduction in deployment time and a 20% improvement in software quality. 
+• Architected and implemented a new microservices architecture for a critical data platform, reducing development time by 20% and improving scalability by 30%. 
+• Optimized the performance of the company's e-commerce platform by 10%, resulting in a 15% increase in conversion rates. 
+• Implemented a new CI/CD pipeline that automated the testing and deployment of new software releases, saving the team 10 hours per week. 
+• Designed and implemented a comprehensive training program for new software engineers, resulting in a 20% reduction in onboarding time and a significant improvement in team morale.</div>
+                
+                <div class="responsibility">Enhanced Responsibility Statements 
+• Led the development and implementation of a new CI/CD pipeline, resulting in a 15% reduction in build time and a 20% improvement in software quality. 
+• Architected and implemented a robust automation framework for software deployment, saving the team 10 hours per week. 
+• Optimized the performance of a key manufacturing software application by 10%, leading to a 5% increase in production output. 
+• Implemented a new automation tool that streamlined the testing process, reducing the time to deploy new features by 25%. 
+• Designed and implemented a new software architecture that reduced development time by 15%. 
+• Delivered a comprehensive training program for new team members, resulting in a 10% increase in team productivity.</div>
+                
+                <div class="responsibility">Enhanced Responsibilities 
+• Led the development of a custom automation framework that streamlined the deployment of new software features, resulting in a 15% reduction in deployment time. 
+• Implemented a new CI/CD pipeline using Jenkins that automated the build, testing, and deployment of a critical software release, saving the team 10 hours of manual effort. 
+• Optimized algorithms for manufacturing efficiency, resulting in a 10% improvement in production output and a 5% reduction in production costs. 
+• Designed and implemented a new data pipeline that provided real-time insights to improve decision-making and optimize resource allocation. 
+• Implemented a new monitoring system that alerted the team to potential software issues, reducing downtime by 20%. 
+• Delivered a comprehensive training program for new team members, resulting in a 100% pass rate and improved team cohesion.</div>
+                
+                <div class="responsibility">Enhanced Responsibility Statements 
+• Led the development and implementation of a new CI/CD pipeline, resulting in a 15% reduction in build time and a 10% improvement in code quality. 
+• Architected and implemented a robust automation framework for software deployment, saving the team 10 hours per week. 
+• Optimized the performance of a key manufacturing process by 20%, leading to a 5% increase in production output. 
+• Implemented a new version control system, GitLab, which resulted in a 20% reduction in merge conflicts and improved team collaboration. 
+• Designed and implemented a new automated testing framework, resulting in a 10% increase in test coverage and a 15% reduction in bug detection time.</div>
+                
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Education</div>
+        
+        <div class="education-item">
+            <div class="degree-title">Master of Science in Computer Science</div>
+            <div class="institution">University of Michigan
+                <span class="location">Detroit, MI</span>
+            </div>
+            <div class="dates">2014 - 2016</div>
+            
+            
+            
+        </div>
+        
+        <div class="education-item">
+            <div class="degree-title">Bachelor of Science in Computer Engineering</div>
+            <div class="institution">Purdue University
+                <span class="location">Detroit, MI</span>
+            </div>
+            <div class="dates">2010 - 2014</div>
+            
+            
+            
+        </div>
+        
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="skills-grid">
+            
+            <div class="skill-category">
+                <h4>Technical Skills</h4>
+                <ul class="skill-list">
+                    
+                    <li>Python</li>
+                    
+                    <li>C++</li>
+                    
+                    <li>Java</li>
+                    
+                    <li>JavaScript</li>
+                    
+                    <li>C</li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            <div class="skill-category">
+                <h4>Tools & Technologies</h4>
+                <ul class="skill-list">
+                    
+                    <li>Git</li>
+                    
+                    <li>Docker</li>
+                    
+                    <li>Jenkins</li>
+                    
+                    <li>JIRA</li>
+                    
+                    <li>Linux</li>
+                    
+                </ul>
+            </div>
+            
+            
+            
+            <div class="skill-category">
+                <h4>Soft Skills</h4>
+                <ul class="skill-list">
+                    
+                    <li>Leadership</li>
+                    
+                    <li>Communication</li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Projects</div>
+        
+        <div class="project-item">
+            <div class="project-title">vehicle diagnostic software</div>
+            <div class="dates"></div>
+            
+            
+            <div style="margin-top: 10px;">Enhanced Project Description: 
+• Led the development and implementation of a robust automated testing framework, resulting in a 20% reduction in test execution time. 
+• Optimized the build process for a key software release, saving 10 hours of development time and improving team efficiency by 15%. 
+• Implemented a new CI/CD pipeline using Jenkins, streamlining the deployment process and reducing deployment errors by 30%. 
+• Designed and implemented a custom monitoring system that alerted the team to potential issues before they manifested in production, resulting in a 10% improvement in uptime. 
+• Developed and documented comprehensive test cases for a new software feature, reducing the time spent on test case creation to 25%. 
+• Delivered a highly successful software release on a tight deadline, exceeding the client's expectations by 15%.</div>
+            
+            
+            
+            
+            
+        </div>
+        
+        <div class="project-item">
+            <div class="project-title">real-time monitoring system for electric vehicle fleet</div>
+            <div class="dates"></div>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+        <div class="project-item">
+            <div class="project-title">data processing pipeline reducing latency by 20%</div>
+            <div class="dates"></div>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        
+        <div class="experience-item">
+            <div class="position-title">AWS Certified Solutions Architect Associate</div>
+            <div class="company">Issuer</div>
+            <div class="dates">Date</div>
+        </div>
+        
+        <div class="experience-item">
+            <div class="position-title">Certified ScrumMaster (CSM)</div>
+            <div class="company">Issuer</div>
+            <div class="dates">Date</div>
+        </div>
+        
+        <div class="experience-item">
+            <div class="position-title">Oracle Certified Professional Java SE</div>
+            <div class="company">Issuer</div>
+            <div class="dates">Date</div>
+        </div>
+        
+        <div class="experience-item">
+            <div class="position-title">OSHA 30-Hour Safety Training</div>
+            <div class="company">Issuer</div>
+            <div class="dates">Date</div>
+        </div>
+        
+    </div>
+    
+
+    
+    <div class="section">
+        <div class="section-title">Achievements</div>
+        
+        <div class="responsibility">Patent holder for innovative software algorithm design</div>
+        
+    </div>
+    
+</body>
+</html>

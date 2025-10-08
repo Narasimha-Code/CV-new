@@ -1,0 +1,62 @@
+Amanda Foster
+Contact: amanda.foster@healthtech.com
+Phone: +1-555-6789
+Location: Miami, FL
+
+Professional Experience:
+- Senior Software Engineer at HealthTech Solutions (2019-Present)
+  * Develop healthcare software applications and patient management systems
+  * Build secure APIs for medical data integration
+  * Collaborate with healthcare professionals on requirements
+  * Ensure HIPAA compliance and data security standards
+
+- Software Developer at Medical Software Company (2017-2019)
+  * Built comprehensive healthcare management web applications
+  * Implemented electronic health record (EHR) systems
+  * Developed patient portal and communication features
+  * Maintained accurate system documentation and user guides
+
+- Junior Developer at Healthcare Startup (2015-2017)
+  * Assisted in developing patient care mobile applications
+  * Performed software testing and quality assurance
+  * Provided technical support and bug fixes
+  * Maintained clean and efficient codebase
+
+Education:
+Bachelor of Science in Computer Science
+University of Miami School of Engineering (2013-2017)
+Magna Cum Laude, ACM Honor Society
+
+Associate Degree in Computer Programming
+Miami Dade College (2013-2015)
+
+Technical Certifications:
+- AWS Certified Developer Associate
+- Certified Information Systems Security Professional (CISSP)
+- MongoDB Certified Developer
+- Agile Certified Practitioner (PMI-ACP)
+
+Technical Specializations:
+Healthcare Software Development, API Design, Database Management
+Java, Python, JavaScript, React, Node.js
+MySQL, MongoDB, RESTful Services, Cloud Computing
+HIPAA Compliance, Security Implementation, System Integration
+
+Professional Development:
+- Certified in healthcare data security (HIPAA)
+- Completed cloud computing specialization
+- Advanced API development certification
+- Healthcare informatics continuing education
+
+Achievements:
+- Employee of the Month (3 times)
+- Led implementation of new patient safety protocols
+- Reduced medication errors by 30% through process improvement
+- Preceptor for nursing students and new graduates
+
+Volunteer Work:
+- Free clinic volunteer providing health screenings
+- Disaster relief nursing with Red Cross
+- Health education in underserved communities
+
+Languages: English (Native), Spanish (Fluent), Haitian Creole (Conversational)

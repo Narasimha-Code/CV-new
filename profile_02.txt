@@ -1,0 +1,38 @@
+Alex Rodriguez
+Contact: alex.rodriguez@email.com
+Phone: +1-555-0234
+Location: San Francisco, CA
+
+Professional Experience:
+- Senior Software Engineer at TechCorp (2021-Present)
+  * Developed scalable web applications using React and Node.js
+  * Led architecture design for microservices platform
+  * Mentored junior developers and conducted code reviews
+  * Collaborated with product teams on feature development
+
+- Full Stack Developer at StartupInc (2019-2021)
+  * Built responsive web applications using JavaScript frameworks
+  * Designed and implemented RESTful APIs
+  * Optimized database queries and improved application performance
+  * Participated in agile development processes
+
+Education:
+Bachelor of Science in Computer Science
+Stanford University (2015-2019)
+
+Technical Specializations:
+JavaScript, Python, React, Node.js, Express.js
+MongoDB, PostgreSQL, AWS, Docker, Kubernetes
+Git, Agile Development, Test-Driven Development, System Design
+
+Projects & Publications:
+- Built e-commerce platform handling 10K+ daily transactions
+- Developed real-time chat application using WebSocket technology
+- Created automated CI/CD pipeline reducing deployment time by 80%
+
+Professional Certifications:
+- AWS Certified Developer Associate
+- MongoDB Certified Developer
+- Kubernetes Application Developer (CKAD)
+
+Languages: English (Native), French (Intermediate)

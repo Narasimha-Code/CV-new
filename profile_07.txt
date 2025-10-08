@@ -1,0 +1,57 @@
+James Wilson
+Contact: james.wilson@techcorp.com
+Phone: (555) 345-6789
+Location: Washington, DC
+
+Professional Experience:
+- Senior Software Engineer at Government Tech Solutions (2020-Present)
+  * Develop secure government software applications
+  * Lead compliance and security implementation projects
+  * Architect enterprise-level systems and databases
+  * Collaborate with stakeholders on requirements and solutions
+
+- Software Engineer at Consulting Tech Firm (2018-2020)
+  * Built custom software solutions for enterprise clients
+  * Conducted technical research and proof of concepts
+  * Developed documentation and technical specifications
+  * Supported senior engineers in system design and architecture
+
+- Software Development Intern at Tech Startup (Summer 2017)
+  * Developed web applications using modern frameworks
+  * Assisted with database design and optimization
+  * Participated in code reviews and testing processes
+  * Contributed to mobile application development
+
+Education:
+Master of Science in Computer Science
+Georgetown University (2015-2018)
+Graduate Research Assistant, Cum Laude
+
+Bachelor of Arts in Computer Science
+Yale University (2011-2015)
+Phi Beta Kappa, Summa Cum Laude
+
+Technical Specializations:
+Enterprise Software Development, System Architecture, Database Design
+Java, C#, Python, JavaScript, SQL
+Spring Framework, .NET, React, Angular
+Cybersecurity, Compliance Systems, Documentation
+
+Technical Certifications:
+- Oracle Certified Professional Java SE Developer (2020)
+- Microsoft Certified Azure Developer Associate (2021)
+- Certified Information Systems Security Professional (CISSP)
+
+Professional Activities:
+- Member of Association for Computing Machinery (ACM)
+- Volunteer software developer for nonprofits
+- Guest lecturer at Georgetown Computer Science Department
+- Published articles in software engineering journals
+
+Achievements:
+- Successfully closed $500M+ in M&A transactions
+- Won motion to dismiss in federal court case
+- Recognized as Rising Star by Super Lawyers
+- Pro bono work totaling 100+ hours annually
+
+Languages: English (Native), Spanish (Professional), French (Conversational)
